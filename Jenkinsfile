@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Code') {
-            steps {
-                git 'https://github.com/Nadeeshasanjaya/Devops-test-.git'
-            }
-        }
-
         stage('Build Maven') {
             steps {
                 sh 'mvn clean package'
