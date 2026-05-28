@@ -8,7 +8,7 @@ public class HelloController {
 
      @GetMapping("/")
     public String home() {
-        return "Spring Boot running in VS Code hi ";
+        return "Spring Boot running in VS Code ";
     }
 }
 
